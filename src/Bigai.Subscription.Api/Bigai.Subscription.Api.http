@@ -1,0 +1,6 @@
+@Bigai.Subscription.Api_HostAddress = http://localhost:5197
+
+GET {{Bigai.Subscription.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D82C56D6-B2CD-F611-9E31-04638F7EC30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bigai.Subscription.Api", "src\Bigai.Subscription.Api\Bigai.Subscription.Api.csproj", "{AC99E66E-F993-4F2F-86E7-7CD8517BDEC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A74F262E-BDE7-D5D2-89E9-785413424D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bigai.Subscription.Application", "src\Bigai.Subscription.Application\Bigai.Subscription.Application.csproj", "{395F5913-CF70-4580-B334-E9F38038460F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DFEE68D8-A7D0-1A41-506C-9B74AA9A7B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bigai.Subscription.Infrastructure", "src\Bigai.Subscription.Infrastructure\Bigai.Subscription.Infrastructure.csproj", "{CDE3863F-B049-4557-BA3F-6CDCA2C23EB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{996CEBED-A05B-5D42-3FF0-982E087A2599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bigai.Subscription.Domain", "src\Bigai.Subscription.Domain\Bigai.Subscription.Domain.csproj", "{7A051006-B8BD-450A-A5E6-5DEAB31A11E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC99E66E-F993-4F2F-86E7-7CD8517BDEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC99E66E-F993-4F2F-86E7-7CD8517BDEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC99E66E-F993-4F2F-86E7-7CD8517BDEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC99E66E-F993-4F2F-86E7-7CD8517BDEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395F5913-CF70-4580-B334-E9F38038460F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395F5913-CF70-4580-B334-E9F38038460F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395F5913-CF70-4580-B334-E9F38038460F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395F5913-CF70-4580-B334-E9F38038460F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE3863F-B049-4557-BA3F-6CDCA2C23EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE3863F-B049-4557-BA3F-6CDCA2C23EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE3863F-B049-4557-BA3F-6CDCA2C23EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE3863F-B049-4557-BA3F-6CDCA2C23EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A051006-B8BD-450A-A5E6-5DEAB31A11E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A051006-B8BD-450A-A5E6-5DEAB31A11E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A051006-B8BD-450A-A5E6-5DEAB31A11E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A051006-B8BD-450A-A5E6-5DEAB31A11E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC99E66E-F993-4F2F-86E7-7CD8517BDEC3} = {D82C56D6-B2CD-F611-9E31-04638F7EC30E}
+		{395F5913-CF70-4580-B334-E9F38038460F} = {A74F262E-BDE7-D5D2-89E9-785413424D0A}
+		{CDE3863F-B049-4557-BA3F-6CDCA2C23EB7} = {DFEE68D8-A7D0-1A41-506C-9B74AA9A7B7B}
+		{7A051006-B8BD-450A-A5E6-5DEAB31A11E1} = {996CEBED-A05B-5D42-3FF0-982E087A2599}
+	EndGlobalSection
+EndGlobal
